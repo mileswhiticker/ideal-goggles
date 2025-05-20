@@ -10,6 +10,7 @@ import { Authenticator } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
 
 import outputs from "@/amplify_outputs.json";
+outputs.data.api_key = 'da2-neebrkhfwnbybh23bjottiac44';
 Amplify.configure(outputs);
 
 const inter = Inter({ subsets: ["latin"] });
